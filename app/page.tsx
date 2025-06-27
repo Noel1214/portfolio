@@ -6,7 +6,6 @@ import ProjectsSection from '@/components/ProjectsSection'
 const page = () => {
   return (
     <div className='overflow-x-hidden'>
-      <Navbar />
       <ProfileAndBio />
       <ProjectsSection />
     </div>
