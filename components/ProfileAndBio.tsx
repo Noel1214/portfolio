@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const ProfileAndBio = () => {
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <div>
         <Navbar />
       </div>
