@@ -1,0 +1,4 @@
+.interpolate-property {
+    interpolate-size: allow-keywords;
+    /* transition: height 2s ease-in-out, width 2s ease-in-out; */
+}
