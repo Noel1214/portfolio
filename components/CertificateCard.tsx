@@ -1,7 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-const CertificateCard = (props) => {
+interface CertificateCardProps {
+  imagelink: string;
+  company: string;
+  desc: string;
+}
+
+const CertificateCard: React.FC<CertificateCardProps> = (props) => {
   return (
     <div className="interpolate-property bg-neutral-900 w-[20rem] min-h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl transition-all duration-300 ease-in-out sm:max-h-none sm:max-w-none overflow-hidden hover:scale-105">
       <div className="flex flex-col gap-2 h-full w-full items-center rounded-2 xl">
@@ -13,10 +19,10 @@ const CertificateCard = (props) => {
           alt="Picture of the project"
         />
         <div className="h-auto p-2 flex flex-col gap-6 scale-95">
-          <h1 className="text-2xl under line underline-offse t-7">{props.company}</h1>
-          <h1 className="">
-            {props.desc}
+          <h1 className="text-2xl under line underline-offse t-7">
+            {props.company}
           </h1>
+          <h1 className="">{props.desc}</h1>
           <div className="flex gap-3">
             <button className="h-10 px-3 bg-neutral-700 rounded-3xl text-white  hover:cursor-pointer">
               View Certificate
