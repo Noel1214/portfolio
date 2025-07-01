@@ -26,7 +26,7 @@ const ProfileAndBio = () => {
           <h2 className="text-lg">
             I am a self-taught developer skilled in building scalable,
             accessible, and highly available websites that are visually
-            appealing and user-friendly.
+            appealing and user friendly.
           </h2>
         </div>
         <div className="min-w-[20rem] w-[90vw] sm:px-[6rem] md:flex md:justify-center">
