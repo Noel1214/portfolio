@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
-const CertificateCard = () => {
+const CertificateCard = (props) => {
   return (
-    <div>CertificateCard</div>
-  )
-}
+    <div className="interpolate-property bg-neutral-900 w-[20rem] min-h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl transition-all duration-300 ease-in-out sm:max-h-none sm:max-w-none overflow-hidden hover:scale-105">
+      <div className="flex flex-col gap-2 h-full w-full items-center rounded-2 xl">
+        <Image
+          className="h-[11rem] w-[20rem] sm:h-[13rem] sm:w-[24rem]"
+          src={`/${props.imagelink}`}
+          width={500}
+          height={500}
+          alt="Picture of the project"
+        />
+        <div className="h-auto p-2 flex flex-col gap-6 scale-95">
+          <h1 className="text-2xl under line underline-offse t-7">{props.company}</h1>
+          <h1 className="">
+            {props.desc}
+          </h1>
+          <div className="flex gap-3">
+            <button className="h-10 px-3 bg-neutral-700 rounded-3xl text-white  hover:cursor-pointer">
+              View Certificate
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default CertificateCard
+export default CertificateCard;
