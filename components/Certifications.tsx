@@ -14,7 +14,7 @@ const Certifications = () => {
           that demonstrate my expertise.
         </h1>
       </div>
-      <div className="mt-5 flex flex-wrap gap-14">
+        <div className="w-full mt-5 px-5 flex flex-wrap justify-center gap-14">
         <CertificateCard imagelink="smarted.png" company="Smarted" desc="Housing and Rental space finder applications where people can list propeties and find vacant spaces" />
         <CertificateCard imagelink="vdart.png" company="Vdart" desc="Offical import and export document handler, where admins and other officals can verify and validate documents"/>
       </div>
