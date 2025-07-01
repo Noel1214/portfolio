@@ -6,7 +6,7 @@ import "../components/css/ProjectCard.css";
 const ProjectCard = () => {
 
   return (
-    <div className="interpolate-property bg-neutral-900 w-[20rem] h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl transition-all duration-300 ease-in-out sm:max-h-none sm:max-w-none overflow-hidden hover:scale-110">
+    <div className="interpolate-property bg-neutral-900 w-[20rem] h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl transition-all duration-300 ease-in-out sm:max-h-none sm:max-w-none overflow-hidden hover:scale-105">
       <div className="flex flex-col gap-2 h-full w-full items-center rounded-2 xl">
         <Image
           className="h-[11rem] w-[20rem] sm:h-[13rem] sm:w-[24rem] rounded-2xl"
