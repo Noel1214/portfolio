@@ -18,7 +18,7 @@ const ProfileAndBio = () => {
             alt="Noel"
           />
         </div>
-        <div className="min-h-[8rem] max-w-[29rem] px-4 flex flex-col gap-5 text-center">
+        <div className="px-4 flex flex-col gap-5 text-center">
           <h1 className="text-5xl sm:text-5xl mb-3 font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
             Hi, I'm Noel Sebu
           </h1>
