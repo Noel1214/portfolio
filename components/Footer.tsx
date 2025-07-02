@@ -3,12 +3,15 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <div className="relative min-h-[30vh] mt-[8rem] p-10 bg-zinc-900">
       <div className="flex flex-col items-center gap-5">
-        <h1 className="text-2xl font-bold font-sans">Get In Touch</h1>
+        <h1 className="text-2xl text-center font-bold font-sans">
+          Get In Touch
+        </h1>
         <h1 className="w-[30vw] text-center text-lg font-sans">
           I'm always open to discussing new opportunities and interesting
           projects.
@@ -36,14 +39,20 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="absolute right-10 bg-zinc-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-zinc-800 hover:scale-125 transition-all duration-200 ease-in-out"
-      >
-        ↑ Top
-      </button>
-      <div className="flex justify-center my-10">
+
+      <div className="flex justify-center my-10 text-center">
         <h1>© 2025 Noel Sebu. All rights reserved.</h1>
+      </div>
+      <div className="flex justify-center">
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="bg-zinc-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-zinc-800 hover:scale-125 transition-all duration-300 ease-in-out"
+        >
+          <div className="flex items-center gap-2">
+            <FaArrowUpLong />
+            <h1>Back to Top</h1>
+          </div>
+        </button>
       </div>
     </div>
   );
