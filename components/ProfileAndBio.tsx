@@ -8,7 +8,7 @@ const ProfileAndBio = () => {
       <div>
         <Navbar />
       </div>
-      <div className="mt-7 min-h-[28rem] w-screen flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-16 sm:gap-8 overflow-x-hidden">
+      <div className="mt-7 w-screen flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-16 sm:gap-8 overflow-x-hidden">
         <div className="px-8 shrink-0">
           <Image
             className="h-[15rem] w-[70vw] md:h-[18rem] md:w-[18rem] object-cover object-top md:object-center rounded-2xl md:rounded-full overflow-hidden shrink-0"

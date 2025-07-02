@@ -12,7 +12,7 @@ interface CertificateCardProps {
 
 const CertificateCard: React.FC<CertificateCardProps> = (props) => {
   return (
-    <div className="p-7 bg-neutral-900 w-[20rem] min-h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
+    <div className="p-7 bg-neutral-900 w-[20rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
       <div className="flex flex-col gap-5 h-full w-full items-center">
         <Image
           className="h-[11rem] w-[20rem] sm:h-[13rem] sm:w-[24rem] object-contain"
