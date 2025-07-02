@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import ProfileAndBio from "@/components/ProfileAndBio";
 import ProjectsSection from "@/components/ProjectsSection";
 import Certifications from "@/components/Certifications";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <ProfileAndBio />
       <ProjectsSection />
       <Certifications />
+      <Footer />
     </div>
   );
 };
