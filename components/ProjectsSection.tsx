@@ -14,7 +14,7 @@ const ProjectsSection = () => {
         </h1>
       </div>
       <div className="px-6 pb-[7rem] mt-16 h-auto flex flex-wrap gap-24 items-start justify-center">
-        <ProjectCard />
+        <ProjectCard date="15th January 2025"  imageLink="tut-app.png" title="Tution App" desc="A web app to display and get reviews of tution tution teachers of a tution center" code="https://github.com/Noel1214/excellent-tution" demo="https://tution.devnoel.org" />
       </div>
     </div>
   );
