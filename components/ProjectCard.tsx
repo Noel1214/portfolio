@@ -15,7 +15,7 @@ interface CertificateCardProps {
 
 const ProjectCard: React.FC<CertificateCardProps> = (props) => {
   return (
-    <div className="px-4 pt-6 pb-5 bg-gray-900 sm:bg-neutral-900 w-[20rem] min-h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
+    <div className="px-4 pt-6 pb-5 bg-gray-800 sm:bg-neutral-900 w-[20rem] min-h-[25rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
       <div className="flex flex-col gap- h-full w-full items-center">
         <Image
           className="h-[11rem] w-[20rem] sm:h-[13rem] sm:w-[24rem] object-cover rounded-2xl"
