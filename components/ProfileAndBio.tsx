@@ -22,7 +22,7 @@ const ProfileAndBio = () => {
           <h1 className="text-5xl sm:text-5xl mb-3 font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
             Hi, I'm Noel Sebu
           </h1>
-          <h2 className="text-lg">
+          <h2 className="text-lg font-sans">
             I am a self-taught developer skilled in building scalable,
             accessible, and highly available websites that are visually
             appealing and user friendly.
