@@ -8,12 +8,12 @@ interface NavbarProps {
 
 const SideNavBar: React.FC<NavbarProps> = ({showNavBar, setshowNavBar}) => {
   return (
-    <div className="relative backdrop-blur-sm bg-black/70 h-full w-full flex items-center">
+    <div className="relative backdrop-blur-md bg-black/70 h-full w-full flex items-center">
       <div className="">
         <ul className="h-[20rem] px-20 text-2xl space-y-10">
-          <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
+          {/* <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
             About Me
-          </li>
+          </li> */}
           <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
             Projects
           </li>
