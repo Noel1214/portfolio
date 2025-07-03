@@ -6,7 +6,7 @@ interface NavbarProps {
   setshowNavBar: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const SideNavBar: React.FC<NavbarProps> = ({showNavBar, setshowNavBar}) => {
+const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
   return (
     <div className="relative backdrop-blur-md bg-black/70 h-full w-full flex items-center">
       <div className="">
@@ -14,18 +14,41 @@ const SideNavBar: React.FC<NavbarProps> = ({showNavBar, setshowNavBar}) => {
           {/* <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
             About Me
           </li> */}
-          <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
+          <li
+            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            onClick={() => {
+              setshowNavBar(false);
+              document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             Projects
           </li>
-          <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
+          <li
+            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            onClick={() => {
+              setshowNavBar(false);
+              document.getElementById("certification")?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             Certificates
           </li>
-          <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
+          <li
+            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            onClick={() => {
+              setshowNavBar(false);
+              document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             Contact
           </li>
         </ul>
       </div>
-      <div className="absolute top-8 right-5" onClick={() => {setshowNavBar((prev) => !prev)}}>
+      <div
+        className="absolute top-8 right-5"
+        onClick={() => {
+          setshowNavBar((prev) => !prev);
+        }}
+      >
         <IoClose size={40} />
       </div>
     </div>

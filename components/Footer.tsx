@@ -7,12 +7,12 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="relative mt-[8rem] p-10 bg-zinc-900">
-      <div className="flex flex-col items-center gap-5">
+    <div id="footer" className="relative mt-[8rem] p-10 bg-zinc-900">
+      <div className="flex flex-col items-center gap-8">
         <h1 className="text-2xl text-center font-bold font-sans">
           Get In Touch
         </h1>
-        <h1 className="w-[30vw] text-center text-lg font-sans">
+        <h1 className="max-w-[29rem] text-center text-lg font-sans">
           I'm always open to discussing new opportunities and interesting
           projects.
         </h1>

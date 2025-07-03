@@ -3,7 +3,7 @@ import CertificateCard from "./CertificateCard";
 
 const Certifications = () => {
   return (
-    <div className="w-screen flex flex-col gap-14 mb-10 items-center font-sans">
+    <div id="certification" className="w-screen flex flex-col gap-14 mb-10 items-center font-sans">
       <div className="flex flex-col items-center gap-7">
         <h1 className="text-5xl text-center font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           Certifications & Achievements.

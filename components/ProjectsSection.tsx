@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectsSection = () => {
   return (
-    <div className="">
+    <div id="projects" className="">
       <div className="flex flex-col gap-9 items-center text-center font-sans">
         <h1 className="w-[95vw] text-5xl text-center font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           Featured Projects.
