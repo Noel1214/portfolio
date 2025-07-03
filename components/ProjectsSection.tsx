@@ -8,7 +8,7 @@ const ProjectsSection = () => {
         <h1 className="w-[95vw] text-5xl text-center font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           Featured Projects.
         </h1>
-        <h1 className="w-[75vw] text-lg">
+        <h1 className="max-w-[35rem] px-2 text-lg">
           Real skills are forged through real work. Here are some of my recent
           projects that highlight my skills in web development and problem solving.
         </h1>
