@@ -37,12 +37,12 @@ const ProjectCard: React.FC<CertificateCardProps> = (props) => {
           <h1 className="">{props.desc}</h1>
           <div className="flex gap-4">
             <a target="_blank" href={props.demo}>
-              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-neutral-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
+              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-zinc-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
                 View Demo
               </button>
             </a>
             <a target="_blank" href={props.code}>
-              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-neutral-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
+              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-zinc-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
                 View Code
               </button>
             </a>

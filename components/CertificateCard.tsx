@@ -32,7 +32,7 @@ const CertificateCard: React.FC<CertificateCardProps> = (props) => {
           <h1 className="">{props.desc}</h1>
           <div>
             <a target="_blank" href={props.linkOfCertificate}>
-              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-neutral-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
+              <button className="h-10 px-3 bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-zinc-700 dark:bg-none rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
                 View Certificate
               </button>
             </a>
