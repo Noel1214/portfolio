@@ -11,9 +11,15 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
     <div className="relative backdrop-blur-md bg-black/70 h-full w-full flex items-center">
       <div className="">
         <ul className="h-[20rem] px-20 text-2xl space-y-10">
-          {/* <li className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out">
+          <li
+            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            onClick={() => {
+              setshowNavBar(false);
+              document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             About Me
-          </li> */}
+          </li>
           <li
             className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
             onClick={() => {
