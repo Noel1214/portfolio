@@ -29,6 +29,13 @@ const Certifications = () => {
           linkOfCertificate="https://drive.google.com/file/d/1gv3_SFNrSwKCbQDIFT8l8JrH-U9n3YOq/view?usp=drive_link"
           date="17-3-2025 - 28-3-2025"
         />
+        <CertificateCard
+          imagelink="hackathon.png"
+          company="TECHINFLR 2K24"
+          desc="Secured Second Place in a Hackathon at Bon Secours College, showcasing problem-solving and full-stack development skills."
+          linkOfCertificate="https://drive.google.com/file/d/1Ur_B0SsgNrX7s7-qwPHW_0hGfL3aYJOE/view?usp=drive_link"
+          date="4th September 2024"
+        />
       </div>
     </div>
   );
