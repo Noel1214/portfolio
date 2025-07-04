@@ -8,7 +8,7 @@ interface NavbarProps {
 
 const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
   return (
-    <div className="relative backdrop-blur-md bg-black/70 h-full w-full flex items-center">
+    <div className="relative text-white backdrop-blur-md bg-black/70 h-full w-full flex items-center">
       <div className="">
         <ul className="h-[20rem] px-20 text-2xl space-y-10">
           <li
