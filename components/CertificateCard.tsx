@@ -12,7 +12,7 @@ interface CertificateCardProps {
 
 const CertificateCard: React.FC<CertificateCardProps> = (props) => {
   return (
-    <div className="py-7 px-4 bg-gray-800 sm:bg-neutral-900 w-[20rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
+    <div className="py-7 px-4 bg-gradient-to-t from-yellow-400 to-cyan-400 dark:bg-gray-800 dark:bg-none sm:bg-neutral-900 w-[20rem] sm:w-[24rem] flex justify-center rounded-2xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
       <div className="flex flex-col gap-5 h-full w-full items-center">
         <Image
           className="h-[11rem] w-[20rem] sm:h-[13rem] sm:w-[24rem] object-cover sm:object-contain"
@@ -32,7 +32,7 @@ const CertificateCard: React.FC<CertificateCardProps> = (props) => {
           <h1 className="">{props.desc}</h1>
           <div>
             <a target="_blank" href={props.linkOfCertificate}>
-              <button className="h-10 px-3 bg-neutral-700 rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
+              <button className="h-10 px-3 bg-sky-600 bg-n eutral-700 rounded-3xl text-white  hover:cursor-pointer hover:scale-105 transition-all duration-200 ease-in-out">
                 View Certificate
               </button>
             </a>
