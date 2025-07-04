@@ -35,7 +35,10 @@ const ProfileAndBio = () => {
           href="https://drive.google.com/file/d/1BeXlkG15O_HbDpGTmY2gR4z5MniKQP_B/view?usp=drive_link"
         >
           <div className="min-w-[20rem] w-[90vw] sm:px-[6rem] md:flex md:justify-center">
-            <button className="h-9 w-full md:w-1/2 rounded-3xl bg-zinc-800 cursor-pointer hover:scale-105 transition-all ease-in-out duration-200">
+            <button
+              className="text-white dark:text-white h-9 w-full md:w-1/2 rounded-3xl bg-gradient-to-l from-[#780206] to-[#061161] dark:bg-zinc-800 dark:bg-none cursor-pointer hover:scale-105 transition-all ease-in-out duration-200" 
+
+            >
               Get Resume
             </button>
           </div>
