@@ -12,7 +12,7 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
       <div className="">
         <ul className="h-[20rem] px-20 text-2xl space-y-10">
           <li
-            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
               document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth" });
@@ -21,7 +21,7 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             About Me
           </li>
           <li
-            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
               document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
@@ -30,7 +30,7 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             Projects
           </li>
           <li
-            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
               document.getElementById("certification")?.scrollIntoView({ behavior: "smooth" });
@@ -39,7 +39,7 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             Certificates
           </li>
           <li
-            className="hover:scale-120 hover:tracking-widest transition-all duration-200 ease-in-out"
+            className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
               document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
