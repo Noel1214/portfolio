@@ -15,7 +15,9 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
-              document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .getElementById("about-me")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
             About Me
@@ -24,7 +26,20 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
-              document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .getElementById("skills")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Skills
+          </li>
+          <li
+            className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
+            onClick={() => {
+              setshowNavBar(false);
+              document
+                .getElementById("projects")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
             Projects
@@ -33,7 +48,9 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
-              document.getElementById("certification")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .getElementById("certification")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
             Certificates
@@ -42,7 +59,9 @@ const SideNavBar: React.FC<NavbarProps> = ({ showNavBar, setshowNavBar }) => {
             className="hover:scale-120 hover:tracking-widest hover:cursor-pointer transition-all duration-200 ease-in-out"
             onClick={() => {
               setshowNavBar(false);
-              document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
+              document
+                .getElementById("footer")
+                ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
             Contact
