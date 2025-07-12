@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed top-0 right-0 z-10 w-screen sm:w-[40vw] h-screen opacity-100 transition-all ease-in-out duration-200 ${
+        className={`fixed top-0 right-0 z-10 w-screen sm:w-[40vw] h-screen opacity-100 transition-all ease-in-out duration-500 ${
           showNavBar
             ? ""
             : "translate-x-[105vw] sm:translate-x-[40vw] opacity-0"
