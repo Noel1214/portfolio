@@ -6,12 +6,13 @@ import Certifications from "@/components/Certifications";
 import Footer from "@/components/Footer";
 import AboutMe from "@/components/AboutMe";
 import Lenis from "lenis";
+import Skills from "@/components/Skills";
 
 const page = () => {
   useEffect(() => {
     // Initialize Lenis
     const lenis = new Lenis({
-        duration: 1.5,
+      duration: 1.3,
     });
 
     // Use requestAnimationFrame to continuously update the scroll
@@ -19,7 +20,6 @@ const page = () => {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
-
     requestAnimationFrame(raf);
   }, []);
 
@@ -27,6 +27,7 @@ const page = () => {
     <div className="overflow-x-hidden">
       <ProfileAndBio />
       <AboutMe />
+      <Skills />
       <ProjectsSection />
       <Certifications />
       <Footer />
